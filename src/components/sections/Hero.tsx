@@ -54,10 +54,16 @@ const Hero = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <HeroButton variant="primary" size="lg" className="group">
-              <Download className="w-5 h-5 mr-2 transition-transform group-hover:scale-110" />
-              Download Resume
-            </HeroButton>
+            <a 
+              href="/resume.pdf" 
+              download="Mohan_Resume.pdf"
+              className="inline-block"
+            >
+              <HeroButton variant="primary" size="lg" className="group">
+                <Download className="w-5 h-5 mr-2 transition-transform group-hover:scale-110" />
+                Download Resume
+              </HeroButton>
+            </a>
             <HeroButton variant="secondary" size="lg" className="group">
               <Zap className="w-5 h-5 mr-2 transition-transform group-hover:rotate-12" />
               View Projects
