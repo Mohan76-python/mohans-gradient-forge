@@ -55,8 +55,8 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <a 
-              href="/resume.pdf" 
-              download="Mohan_Resume.pdf"
+              href="/Mohan_Resume.pdf" 
+              download="ASWA_MOHAN_BABU_Resume.pdf"
               className="inline-block"
             >
               <HeroButton variant="primary" size="lg" className="group">
